@@ -12,6 +12,25 @@ body{
 	background-position: center;
 	background-attachment: fixed;
 }
+#shb{
+	margin-top: -16px;
+	display: block;
+	background-color: black;
+	opacity: 0.8;
+	display: none;
+}
+
+
+#hamb{
+	/*display: none;*/
+	height: 4vh;
+	width: auto;
+	text-decoration: none;
+	background-color: white;
+	margin-top: -16px;
+	margin-left: 19px;
+	margin-bottom: 10px;
+}
 
 .horizontal-list{
 	list-style: none;
@@ -181,12 +200,76 @@ footer{
 	color: white;
 }
 
-/* For mobile */
+.icons{
+	height: 2.5vh; 
+	width: auto;
+}
 
-@media screen and (max-width: 720px){
+/* For Mobile */
+@media (max-width: 720px){
 
-	#social-handles{
-		display: none;
-	}
-	
+#body-header{
+	margin-top: -19px;
+	height: 46vh;
+}
+
+#name-handles #social-handles{
+	display: none;
+}
+
+.icons{
+	height: 2vh;
+	width: auto;
+}
+
+.horizontal-list{
+	height: 5vh;
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+	opacity: 0.8;
+	background-color: black;
+
+}
+
+.horizontal-list li{
+	display: none;
+	margin: 19px 10px 19px 10px;
+	background-color: #B4AAA9;
+
+}
+
+.horizontal-list li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding: 4px 16px 4px 16px;
+	transition: color 0.5s;
+}
+
+.horizontal-list li a:hover{
+	color: black;
+	background-color: #E7F2F8;
+	border: 2px solid black;
+} 
+
+#shb{
+	margin-top: -16px;
+	display: block;
+	background-color: black;
+	opacity: 0.8;
+}
+
+
+#hamb{
+	/*display: none;*/
+	height: 4vh;
+	width: auto;
+	text-decoration: none;
+	background-color: white;
+	margin-top: -16px;
+	margin-left: 19px;
+	margin-bottom: 10px;
+}
+
 }
