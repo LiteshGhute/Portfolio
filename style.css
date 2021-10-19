@@ -1,3 +1,4 @@
+/* For Desktop */
 body{
 	margin: 0px;
 }
@@ -178,4 +179,14 @@ footer{
 	/*background-image: -webkit-linear-gradient(left, #000000,rgb(224,255,255));*/
 	background-color: black;
 	color: white;
+}
+
+/* For mobile */
+
+@media screen and (max-width: 720px){
+
+	.social-handles{
+		display: none;
+	}
+	
 }
