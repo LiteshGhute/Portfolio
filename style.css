@@ -185,7 +185,7 @@ footer{
 
 @media screen and (max-width: 720px){
 
-	.social-handles{
+	#social-handles{
 		display: none;
 	}
 	
